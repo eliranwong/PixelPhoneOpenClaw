@@ -1,39 +1,41 @@
-# Bot Token
+# Telegram Setup
 
-Generate a bot token in the Telegram app:
+## Create a Bot Token
 
-1. Search for @BotFather
-2. Enter: /start
-3. Enter: /newbot
-4. Enter bot name: MyBot
-5. Enter bot id: mybot_bot
+Generate a bot token via the Telegram app:
 
-In chat web ui, ask the chat to configure the bot token properly
+1. Search for **@BotFather**
+2. Enter: `/start`
+3. Enter: `/newbot`
+4. Enter a bot name, e.g. `MyBot`
+5. Enter a bot username, e.g. `mybot_bot`
 
-# Pairing
+Then, in the OpenClaw web UI, configure the bot token.
 
-After configuring the Telegram bot token, from a regular telelgram account, search for `@mybot_bot` and send a `Hello`, to get the pairing code and run:
+## Pairing
 
-```
+After configuring the Telegram bot token, search for your bot (e.g. `@mybot_bot`) from a regular Telegram account and send `Hello` to get a pairing code. Then approve it:
+
+```bash
 openclaw pairing approve telegram <PAIRING_CODE>
 ```
 
-# Create a Telegram Group with a dedicated agent and workspace
+## Create a Telegram Group with a Dedicated Agent and Workspace
 
-* isolate its memory
-* select the most appropriate model for the task
+This lets you isolate the agent's memory and select the most appropriate model for the task.
 
-1. Ask the main agent to create a new agent and a dedicated workspace for the agent.
-2. Disable privacy mode for the bot in @BotFather chat, to grant access to all messages in the group:
+1. Ask the main agent to create a new agent with a dedicated workspace.
+2. Disable privacy mode for the bot in the **@BotFather** chat so the bot can read all messages in the group:
 
-In @BotFather chat, run
-> /setprivacy
-> @mybot_bot
-> Disable
+   ```
+   /setprivacy
+   @mybot_bot
+   Disable
+   ```
 
 3. Create a new Telegram group.
-4. Add the main agent to the group.
-5. In the **newly created group chat**, send message """@mybot_bot What is the current group id?"""
-6. Copy the group id
-7. In the main agent chat, not the group chat, ask the main agent to bind the newly created agent to the group with the id provided in the previous step.
+4. Add the bot to the group.
+5. In the **newly created group chat**, send: `@mybot_bot What is the current group id?`
+6. Copy the group ID from the bot's reply.
+7. In the **main agent chat** (not the group chat), ask the main agent to bind the newly created agent to the group using the ID from the previous step.
 8. Specify the model to use for the agent in the group chat.

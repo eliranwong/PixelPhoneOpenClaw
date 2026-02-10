@@ -1,28 +1,26 @@
 # Install OpenClaw
 
-```
+```bash
 npm install -g openclaw@latest
 openclaw onboard --install-daemon
 ```
 
 ## Configure AI Backends
 
-Google -> Google Antigravity
+Select your AI backend during onboard. For Google, choose **Google Antigravity**.
 
 ## Gateway
 
-[Telegram](telegram.md)
+Set up [Telegram](telegram.md) as the messaging gateway.
 
 ## Skills
 
-Select skills according to your needs.
-
-Enter API keys for:
+Select skills according to your needs. Some skills require their own API keys:
 
 - [Google Places](google_ai_plan.md)
 - [Nano Banana](google_ai_plan.md)
 - [Notion API](https://www.notion.com/my-integrations)
 
-# WEB UI Token
+## Web UI Token
 
-Pay attention to the web ui token, it is different from the telegram token.  It is displayed at the end of the installation process.
+Pay attention to the web UI token displayed at the end of the installation process — it is different from the Telegram bot token.

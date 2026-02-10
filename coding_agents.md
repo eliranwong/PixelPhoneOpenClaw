@@ -1,37 +1,45 @@
 # Coding Agents
 
-# Prerequisites
+## Prerequisites
 
-Node.js 22.x
+- Node.js 22.x
 
-# Claude Code via Azure Foundry
+## Claude Code via Azure Foundry
 
-Using Claude Models via Azure Foundry
+Set the following environment variables (replace the placeholder values with your own):
 
-```
-export ANTHROPIC_AUTH_TOKEN=my_api_key
-export ANTHROPIC_BASE_URL=https://project_name.services.ai.azure.com/anthropic/
-export ANTHROPIC_FOUNDRY_API_KEY=my_api_key
-export ANTHROPIC_FOUNDRY_BASE_URL=https://project_name.services.ai.azure.com/anthropic/
+```bash
+export ANTHROPIC_AUTH_TOKEN=<your_api_key>
+export ANTHROPIC_BASE_URL=https://<your_project_name>.services.ai.azure.com/anthropic/
+export ANTHROPIC_FOUNDRY_API_KEY=<your_api_key>
+export ANTHROPIC_FOUNDRY_BASE_URL=https://<your_project_name>.services.ai.azure.com/anthropic/
 export ANTHROPIC_MODEL=opusplan
 export ANTHROPIC_DEFAULT_OPUS_MODEL=claude-opus-4-5
 export ANTHROPIC_DEFAULT_SONNET_MODEL=claude-sonnet-4-5
 ```
 
-> curl -fsSL https://claude.ai/install.sh | bash
+Install and run Claude Code:
 
-> claude
-
-# Gemini CLI via Vertex AI
-
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+claude
 ```
-export GOOGLE_CLOUD_PROJECT=my_project_id
+
+## Gemini CLI via Vertex AI
+
+Set the following environment variables (replace the placeholder values with your own):
+
+```bash
+export GOOGLE_CLOUD_PROJECT=<your_project_id>
 export GOOGLE_CLOUD_LOCATION=us-central1
-export GOOGLE_APPLICATION_CREDENTIALS='credentials_google_cloud.json' # specify the path to the credentials file
+export GOOGLE_APPLICATION_CREDENTIALS='credentials_google_cloud.json'  # path to your service account JSON key
 ```
 
-> npm install -g @google/gemini-cli
+Install and run Gemini CLI:
 
-> gemini
+```bash
+npm install -g @google/gemini-cli
+gemini
+```
 
-Select Vertex AI for authentication.
+Select **Vertex AI** when prompted for the authentication method.

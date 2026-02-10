@@ -1,6 +1,6 @@
 # PixelPhoneOpenClaw
 
-This repository contains notes and scripts for setting up OpenClaw on a Pixel Phone via Pixel Terminal.  These are growing notes as I continue to experiment.
+This repository contains notes and scripts for setting up OpenClaw on a Pixel Phone via Pixel Terminal. These are growing notes as I continue to experiment.
 
 ## Tested Device
 
@@ -13,7 +13,7 @@ This repository contains notes and scripts for setting up OpenClaw on a Pixel Ph
 - Gemini CLI via Vertex AI
 - OpenAI API models
 
-## OpenClawSetup
+## OpenClaw Setup
 
 1. [Google AI Plan and API Setup](google_ai_plan.md)
 2. Install Pixel Terminal on Pixel 10 Pro via Play Store
@@ -21,5 +21,6 @@ This repository contains notes and scripts for setting up OpenClaw on a Pixel Ph
 4. [Install Node.js](https://nodejs.org/en/download)
 5. [Install Homebrew](https://brew.sh/)
 6. [Install OpenClaw](openclaw.md)
-7. [Install Coding Agents](coding_agents.md)
-8. [Setup Telegram Bot & Groups](telegram.md)
+7. [Install coding agents](coding_agents.md)
+8. [Set up Telegram bot & groups](telegram.md)
+9. [Configure shell environment](.bashrc)

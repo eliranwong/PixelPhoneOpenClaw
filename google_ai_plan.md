@@ -8,6 +8,7 @@ Subscribe at https://one.google.com/about/google-ai-plans
 
 Benefits for using it with OpenClaw:
 
+- Offers family sharing
 - Includes Antigravity usage
 - Access to Claude Code models via Antigravity
 - Access to Gemini 3 Pro models via Antigravity

@@ -14,7 +14,7 @@ export ANTHROPIC_DEFAULT_SONNET_MODEL=claude-sonnet-4-5
 # Gemini CLI via Vertex AI
 export GOOGLE_CLOUD_PROJECT=<your_project_id>
 export GOOGLE_CLOUD_LOCATION=us-central1
-export GOOGLE_APPLICATION_CREDENTIALS='credentials_google_cloud.json'
+export GOOGLE_APPLICATION_CREDENTIALS='/mnt/shared/Documents/credentials_google_cloud.json'
 
 # Utilities
 alias files="python3 -m http.server 9999"

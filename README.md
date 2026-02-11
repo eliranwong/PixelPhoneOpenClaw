@@ -2,9 +2,15 @@
 
 This repository contains notes and scripts for setting up OpenClaw on a Pixel Phone via Pixel Terminal. These are growing notes as I continue to experiment.
 
+Goal: Turn my Pixel Phone into a pocket AI assistant that can help me with coding, research, and other tasks.
+
 ## Tested Device
 
 - Pixel 10 Pro (Android 16)
+
+# Screenshot
+
+<img width="417" height="454" alt="Image" src="https://github.com/user-attachments/assets/558fa8bc-c36f-463f-8842-e8cb86cb0281" />
 
 ## Tested AI Backends
 

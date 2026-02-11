@@ -12,7 +12,7 @@ Benefits for using it with OpenClaw:
 - Includes Antigravity usage
 - Access to Claude Code models via Antigravity
 - Access to Gemini 3 Pro models via Antigravity
-- $10 Google Cloud service monthly credits for Vertex AI API and Gemini API
+- Optional: $10 Google Cloud service monthly credits for Vertex AI API and Gemini API
 
 ## Set Up Google Cloud Service
 
@@ -57,3 +57,5 @@ Set up a Gemini API key that uses the $10 monthly credits:
 3. Select the billed account
 4. Go to the **Keys** section
 5. Click **Add Key** > **Create new key** > **JSON**
+
+Place the JSON file in the `Documents` directory on your Pixel Phone, e.g. `Documents/credentials_google_cloud.json`

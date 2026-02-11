@@ -32,7 +32,7 @@ Set the following environment variables (replace the placeholder values with you
 ```bash
 export GOOGLE_CLOUD_PROJECT=<your_project_id>
 export GOOGLE_CLOUD_LOCATION=us-central1
-export GOOGLE_APPLICATION_CREDENTIALS='credentials_google_cloud.json'  # path to your service account JSON key
+export GOOGLE_APPLICATION_CREDENTIALS='/mnt/shared/Documents/credentials_google_cloud.json'  # path to your service account JSON key
 ```
 
 Install and run Gemini CLI:

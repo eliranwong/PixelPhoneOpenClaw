@@ -18,6 +18,10 @@ Tips: Connect a bluetooth keyboard and a mouse to your Pixel Phone to make the a
 6. Press Enter.
 7. The authentication process will complete.
 
+## Configure Providers (Azure OpenAI & Anthropic)
+
+Set up [Providers](providers.md) according to your needs.
+
 ## Gateway
 
 Set up [Telegram](telegram.md) as the messaging gateway.
@@ -38,3 +42,8 @@ Pay attention to the gateway token displayed at the end of the installation proc
 2. Go to the `Overview` tab.
 3. Enter the Gateway Token.
 4. Click on the `Connect` button.
+
+### Install like an Android App
+
+1. Select `Add to home screen` in the Chrome browser menu on your Pixel Phone.
+2. Select `Install` in the dialog that appears.

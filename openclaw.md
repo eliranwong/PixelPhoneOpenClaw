@@ -1,5 +1,17 @@
 # Install OpenClaw
 
+Install the following tools first:
+
+```bash
+brew install ripgrep
+npm install -g mcporter@latest
+npm install -g clawhub@latest
+npm install -g @steipete/summarize@latest
+npm install -g @mariozechner/pi-ai@latest
+```
+
+Then install OpenClaw:
+
 ```bash
 npm install -g openclaw@latest
 openclaw onboard --install-daemon

@@ -15,18 +15,19 @@ Goal: Turn my Pixel Phone into a pocket AI assistant that can help me with codin
 ## Tested AI Backends
 
 - Google Antigravity Models
-- Claude Code via Azure Foundry
 - Gemini CLI via Vertex AI
+- Claude Models via Azure Foundry
+- Claude Code via Azure Foundry Claude models
+- OpenAI Models via Azure Foundry
 - OpenAI API models
 
 ## OpenClaw Setup
 
 1. [Google AI Plan and API Setup](google_ai_plan.md)
-2. Install Pixel Terminal on Pixel 10 Pro via Play Store
-3. [Install basic tools](basic_tools.md)
-4. [Install Node.js](https://nodejs.org/en/download)
-5. [Install Homebrew](https://brew.sh/)
-6. [Install OpenClaw](openclaw.md)
-7. [Install coding agents](coding_agents.md)
-8. [Set up Telegram bot & groups](telegram.md)
-9. [Configure shell environment](.bashrc)
+2. [Azure Deployment](azure_deployment.md)
+3. Install Pixel Terminal on Pixel 10 Pro via Play Store
+4. [Install basic tools](basic_tools.md)
+5. [Install OpenClaw](openclaw.md)
+6. [Install coding agents](coding_agents.md)
+7. [Set up Telegram bot & groups](telegram.md)
+8. [Configure shell environment](.bashrc)

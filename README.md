@@ -30,4 +30,4 @@ Goal: Turn my Pixel Phone into a pocket AI assistant that can help me with codin
 5. [Install OpenClaw](openclaw.md)
 6. [Install coding agents](coding_agents.md)
 7. [Set up Telegram bot & groups](telegram.md)
-8. [Configure shell environment](.bashrc)
+8. [Configure shell environment](bashrc_example.md)
